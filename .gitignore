@@ -1,0 +1,42 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.python-version
+
+# Virtual environments
+airflow_env/
+venv/
+ENV/
+env/
+.venv/
+
+# Airflow local files
+airflow.db
+logs/
+
+# Local environment config
+.env
+.env.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.iml
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.tmp
+*.temp
